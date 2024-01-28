@@ -16,9 +16,11 @@ main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: transparent;
-    box-shadow: 0 0 50px rgb(9, 54, 255);
+    background-color: rgb(238, 255, 0);
+    box-shadow: 0 0 50px rgb(0, 4, 255);
+    border-radius: 30px;
 }
+
 
 section {
     margin-bottom: 20px;
@@ -36,15 +38,18 @@ video {
     height: auto;
     display: block;
     margin-bottom: 10px;
+    border-radius: 30px;
 }
 
 footer {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     background-color: transparent;
-    color: #fff;
+    color: #ff0000;
 }
- 
+img{
+  border-radius: 30px;
+}
      
 /*h1{ 
      font-size: 5em; 
@@ -71,25 +76,27 @@ footer {
   
   .rainbow {
     text-align: center;
+    text-decoration: none;
     font-size: 40px;
+    font-family: monospace;
     letter-spacing: 0px;
-    animation: colorRotate 3s linear 0s infinite;
+    animation: colorRotate 5s linear 0s infinite;
   }
   
   @keyframes colorRotate {
     from {
-      color: #6666ff;
+      color: #e5ff00;
     }
     10% {
-      color: #0099ff;
+      color: #ff00ea;
     }
     50% {
-      color: #00ff00;
+      color: #ff0000;
     }
     75% {
-      color: #ff3399;
+      color: #2600ff;
     }
     100% {
-      color: #6666ff;
+      color: #bcf7f2;
     }
   }
