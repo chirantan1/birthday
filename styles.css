@@ -40,7 +40,7 @@ video {
 
 footer {
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     background-color: transparent;
     color: #fff;
 }
@@ -71,9 +71,7 @@ footer {
   
   .rainbow {
     text-align: center;
-    text-decoration: none;
     font-size: 40px;
-    font-family: monospace;
     letter-spacing: 0px;
     animation: colorRotate 3s linear 0s infinite;
   }
